@@ -10,7 +10,9 @@ header{
 }
 body{
     margin: 0;
-    font-family: Arial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
 }
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
@@ -69,29 +71,6 @@ body{
     flex-direction: column;
 
 }
-.result{
-    background-color: rgb(202, 202, 202);
-    width: 23%;
-    margin-top: 6px;
-    margin-left: 6px;
-    height: 550px;
-    float: left;
-    font-size: 18px;
-    text-align: center;
-    flex-direction: column;
 
-}
-.Wanted_People{
-    text-align: center;
-}
-input {
-    line-height: 25px;
-    font-size: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 
-}
-.mugshot {
-    width: 90%;
-    height:45%;
-}
+
