@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(112, 146, 190);
+    background-color: rgb(99, 65, 43);
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: large;
@@ -18,11 +18,10 @@ body{
   font-style: normal;
 }
 
-
 .menu{
     margin: 0px;
-    padding: 8px;
-    height: 28px;
+    padding: 0px;
+    height: 40px;
     background-color: rgb(153 ,217 ,234);
 }
 .menu li{
@@ -30,10 +29,11 @@ body{
 }
 
 .button{
-    font-size: 28px;
+    font-size: 200%;
     font-style: none;
     color: white;
-    padding: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-decoration: none;
 }
 .button:link{
@@ -46,7 +46,8 @@ body{
 }
 
 nav{
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 body{
     background-color: #EFE4B0;
