@@ -1,0 +1,89 @@
+header{
+    background-color: rgb(112, 146, 190);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: large;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+.menu{
+    margin: 0px;
+    padding: 8px;
+    height: 28px;
+    background-color: rgb(153 ,217 ,234);
+}
+.menu li{
+    display: inline
+}
+
+.button{
+    font-size: 28px;
+    font-style: none;
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+}
+.button:link{
+    background-color: rgb(153, 217, 234);
+    color: white;
+    transition:none;
+}
+.button:hover{
+    background-color: rgb(112, 146, 190);
+}
+
+nav{
+    text-align: left;
+}
+body{
+    background-color: #EFE4B0;
+}
+.leftimage{
+    width: 40%;
+    float: left;
+    padding: 1%;
+}
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    margin-top: 6px;
+    margin-left: 6px;
+    height: 100%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    flex-direction: column;
+
+}
+.result{
+    background-color: rgb(202, 202, 202);
+    width: 23%;
+    margin-top: 6px;
+    margin-left: 6px;
+    height: 550px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    flex-direction: column;
+
+}
+.Wanted_People{
+    text-align: center;
+}
+input {
+    line-height: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.mugshot {
+    width: 90%;
+    height:45%;
+}
