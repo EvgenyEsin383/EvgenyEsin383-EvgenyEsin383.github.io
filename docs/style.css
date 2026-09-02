@@ -26,7 +26,8 @@ body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
-
+    background-color: rgb(112, 93, 77);
+    color: white;
 }
 
 .bebas-neue-regular {
@@ -68,10 +69,20 @@ nav{
     float: left;
     flex-direction: row;
 }
-body{
-    background-color: rgb(112, 93, 77);
-    color: white;
+#bibliography{
+    display: flex;
+    flex-direction: column;
 }
+.biblioLink{
+    font-size: larger;
+    text-align: center;
+    color: rgb(247, 245, 237); 
+}
+.biblioLink:hover{
+    color: rgb(112, 128, 82);
+}
+
+
 .leftimage{
     width: 40%;
     float: left;
