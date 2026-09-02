@@ -1,12 +1,26 @@
 header{
-    background-color: rgb(99, 65, 43);
+    background-color: rgb(247, 245, 237);
     color: rgb(255, 255, 255);
-    text-align: center;
     font-size: large;
     font-family: "Bebas Neue", sans-serif;
-    position: sticky;
+    position: static;
     top: 0;
     overflow: hidden;
+    align-items: center;
+    display: flex;
+    
+
+}
+#rightside{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 300%;
+    color: rgb(17, 52, 39);
 }
 body{
     margin: 0;
@@ -14,6 +28,7 @@ body{
     font-size: large;
 
 }
+
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -24,7 +39,6 @@ body{
     margin: 0px;
     padding: 0px;
     height: 40px;
-    background-color: rgb(153 ,217 ,234);
 }
 .menu li{
     display: inline
@@ -39,25 +53,37 @@ body{
     text-decoration: none;
 }
 .button:link{
-    background-color: rgb(153, 217, 234);
+    background-color: rgb(17, 52, 39);
     color: white;
-    transition:none;
+    transition: None;
 }
 .button:hover{
-    background-color: rgb(112, 146, 190);
+    background-color: rgb(112, 128, 82);
 }
 
 nav{
     text-align: center;
     align-items: center;
+    width:100%;
+    float: left;
+    flex-direction: row;
 }
 body{
-    background-color: #EFE4B0;
+    background-color: rgb(112, 93, 77);
+    color: white;
 }
 .leftimage{
     width: 40%;
     float: left;
     padding: 1%;
+    transition: 2s;
+}
+.logoimage{
+    float :left;
+    width: 20%;
+}
+.leftimage:hover{
+    width:45%;
 }
 .sidebar{
     background-color: rgb(255, 255, 255);
