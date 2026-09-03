@@ -3,11 +3,10 @@ header{
     color: rgb(255, 255, 255);
     font-size: large;
     font-family: "Bebas Neue", sans-serif;
-    position: static;
-    top: 0;
     overflow: hidden;
     align-items: center;
     display: flex;
+    padding: 10px
     
 
 }
@@ -15,7 +14,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 0%;
-    width: 100%;
+    width: 90%;
 }
 h1{
     text-align: center;
@@ -25,9 +24,11 @@ h1{
 body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+    font-size: x-large;
     background-color: rgb(112, 93, 77);
     color: white;
+    min-height: 100vh;
+    padding: 0%;
 }
 
 .bebas-neue-regular {
@@ -39,7 +40,8 @@ body{
 .menu{
     margin: 0px;
     padding: 0px;
-    height: 40px;
+    display: flex;
+    gap: 5px;
 }
 .menu li{
     display: inline
@@ -65,9 +67,9 @@ body{
 nav{
     text-align: center;
     align-items: center;
-    width:100%;
-    float: left;
-    flex-direction: row;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #bibliography{
     display: flex;
@@ -84,29 +86,48 @@ nav{
 
 
 .leftimage{
-    width: 40%;
+    width: 25%;
     float: left;
     padding: 1%;
-    transition: 2s;
-}
-.logoimage{
-    float :left;
-    width: 20%;
+    transition: 1s;
 }
 .leftimage:hover{
-    width:45%;
+    width:26%;
 }
-.sidebar{
-    background-color: rgb(255, 255, 255);
+.rightimage{
     width: 25%;
-    margin-top: 6px;
-    margin-left: 6px;
-    height: 100%;
-    float: left;
-    font-size: 18px;
+    float: right;
+    padding: 1%;
+    transition: 1s;
+}
+.rightimage:hover{
+    width:26%
+}
+.conseqImage{
+    width: 90%;
+}
+.logoimage{
+    width: 15%;      
+    height: auto;
+}
+#shortTerm{
+    width: 50%;
     text-align: center;
-    flex-direction: column;
-
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(143, 157, 140);
+}
+#longTerm{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(17, 52, 39);
+    
+}
+#consequenceHolder{
+    display: flex;
+    min-height: calc(100vh - 120px);
 }
 
 
