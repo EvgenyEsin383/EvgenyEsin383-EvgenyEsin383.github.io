@@ -7,8 +7,17 @@ header{
     align-items: center;
     display: flex;
     padding: 10px
-    
-
+}
+footer{
+    background-color: rgb(247, 245, 237);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: "Bebas Neue", sans-serif;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px
 }
 #rightside{
     display: flex;
@@ -92,7 +101,7 @@ nav{
     transition: 1s;
 }
 .leftimage:hover{
-    width:26%;
+    width: calc(25% + 10px);
 }
 .rightimage{
     width: 25%;
@@ -101,7 +110,7 @@ nav{
     transition: 1s;
 }
 .rightimage:hover{
-    width:26%
+    width: calc(25% + 10px);
 }
 .conseqImage{
     width: 90%;
@@ -128,6 +137,35 @@ nav{
 #consequenceHolder{
     display: flex;
     min-height: calc(100vh - 120px);
+}
+#second{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(112, 128, 82);
+}
+#first{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(112, 93, 77);
+}
+#credits{
+    background-color: rgb(247, 245, 237);
+    color: rgb(17, 52, 39);
+    font-size: large;
+    font-family: "Bebas Neue", sans-serif;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#credits:hover{
+    color: rgb(112, 128, 82);
+    background-color: rgb(48, 45, 39);
+
 }
 
 
